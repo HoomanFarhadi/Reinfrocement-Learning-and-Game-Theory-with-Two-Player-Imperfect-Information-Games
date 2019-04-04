@@ -1,0 +1,2 @@
+# Reinfrocement-Learning-with-Two-Player-Imperfect-Information-Games
+Inspired by the ideas taken from Alpha(Go) Zero (https://deepmind.com/blog/alphago-zero-learning-scratch/), I implemented a general reinforcement learning algorithm that can learn to play two player imperfect information games. This required significant insights and new methods in addition to the core ideas (deep q learning, monte carlo tree search) taken from the original paper. The neural network was implemented with Keras.
