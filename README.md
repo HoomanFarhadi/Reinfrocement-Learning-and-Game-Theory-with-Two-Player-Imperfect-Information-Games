@@ -1,5 +1,5 @@
 # Reinfrocement-Learning-and-Game-Theory-with-Two-Player-Imperfect-Information-Games
-Inspired by ideas taken from the Alpha (Go) Zero paper (https://deepmind.com/blog/alphago-zero-learning-scratch/), I implemented a general reinforcement learning algorithm that can learn to play two player imperfect information games. This required significant insights and new methods in addition to the core ideas (deep q learning, Monte Carlo tree search) taken from the original paper. The neural network was implemented with Keras.
+Inspired by ideas taken from the Alpha (Go) Zero paper (https://deepmind.com/blog/alphago-zero-learning-scratch/), I implemented a general reinforcement learning algorithm that can learn to play two player imperfect information games. This required significant insights and new methods in addition to the core ideas (deep Q learning, Monte Carlo tree search) taken from the original paper. The neural network was implemented with Keras.
 
 The game that I was testing this algorithm on is as follows: two players make a series of simultaneous bids to decide how a bottle that is in between them moves. The game is won when one player gets the bottle, and drawn if neither gets it (more details here: https://www.hackerrank.com/contests/twitch/challenges/the-bidding-game).
 
