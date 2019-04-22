@@ -7,8 +7,8 @@ Although the reinforcement learning algorithm came up with a strategy that perfo
 
 Here is a summary of all the files:
 
-*main.py: The reinforcement learning approach to solving the game, implemented in Python.
+* main.py: The reinforcement learning approach to solving the game, implemented in Python.
 
-*Game theoric approach.py: The game theoric approach to solving the game, implemented in Python.
+* Game theoric approach.py: The game theoric approach to solving the game, implemented in Python.
 
 
