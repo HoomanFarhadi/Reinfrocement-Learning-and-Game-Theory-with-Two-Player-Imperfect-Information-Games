@@ -15,9 +15,9 @@ Here is a summary of all the files:
 
 * state proportions.py: A fast approach to pre-compute a large number of the winning states by estimating the smallest proportion of the total sum of money required to win when the bottle is one spot away from the player, and reasoning recursively to find the proportions for other distances.
 
-* find indexes.cpp: Finds the values of all states without state approximations. Not fast enough for the actual algorithm, but can be used to make a very optimal (perhaps perfect) strategy.
+* find indices.cpp: Finds the values of all states without state approximations. Not fast enough for the actual algorithm, but can be used to make a very optimal (perhaps perfect) strategy.
 
-* Precomputed Implementation.cpp: A version of the algorithm with the values found in find indexes.cpp hardcoded into it.
+* Precomputed Implementation.cpp: A version of the algorithm with the values found in find indices.cpp hardcoded into it.
 
 * Flow Algorithm.py: An idea to compute all winning states by starting from the root nodes and working up instead of the other way around which is what was done in the original algorithm. Could be promising as computing from bottom to up is much faster, but I could not get it to work (had both accuracy and speed problems) and settled with my original implementation.
 
